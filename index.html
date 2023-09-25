@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/dice1.png" />
+    <title>Roll dice</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <form name="f" class="tbody">
+      <header class="header">
+        <input class="header__title" name="h" value="RANDOM DICE" />
+      </header>
+      <section class="container">
+        <div>
+          <p class="container__player" name="p1">Player 1</p>
+          <img class="container__dice" src="./img/dice1.png" name="d1" />
+        </div>
+        <div>
+          <p class="container__player" name="p2">Player 2</p>
+
+          <img class="container__dice" src="./img/dice1.png" name="d2" />
+        </div>
+      </section>
+      <div class="btn">
+        <input
+          class="btn__roll"
+          type="button"
+          name="b"
+          value="ROLL"
+          onClick="rolldice()"
+        />
+      </div>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
